@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Tower Defence</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div id="theGame" width="1400" heigth="800">
+		<div id="statsBar" width="300" heigth="800">
+			<p id="stats"></p>
+			<p id="towerStats">Tower:</p>
+		</div>
+		<div id="background" width="800" heigth="800"></div>
+		<canvas id="game" width="800" height="800"></canvas>
+		<div id="gridOverlay" width="800" heigth="800"></div>
+		<div id="shop" width="300" heigth="800">
+			<h3>----------Towers----------</h3><br>
+			<button id="arrowTowerButton">Buy arrow tower (100g) [A]</button>
+			<button id="cannonTowerButton">Buy cannon tower [inactive]</button>
+			<button id="laserTower">Buy laser tower [inactive]</button>
+			<h3>----------Traps-----------</h3>
+			<button id="spikeTrapButton">Spikes [inactive]</button>
+			<h3>---------Upgrades---------</h3>
+			<button id="interestButton">Better interest</button>
+			<button id="towerMultButton">Upgrade towers [U] (100000)</button>
+			<h3>------Tower-upgrade-------</h3>
+			<button id="towerDamageUpgradeButton">Damage [D] (+1)</button>
+			<button id="towerSpeedUpgradeButton">Speed [S] (-5)</button>
+			<button id="towerRangeUpgradeButton">Range [R] (+1)</button>
+			<h3>-----------Menu-----------</h3>
+			<button id="pauseButton">Pause</button>
+			<button id="speedButton">Speed</button>
+		</div>
+		</div>
+		<div id="startScreen">
+			<h1>Nydalen Defence</h1>
+
+			<div id="modes">
+				<div class="adjust">
+					<h2 id="gameSpeedNumber">GameSpeed: 1</h2>
+					<input type="range" min="1" max="20" value="2" class="slider" id="gameSpeedSlider">
+					<input type="number" id="gameSpeedInput" class="inputNumber" min="0" placeholder="1">
+				</div>
+				<div class="adjust">
+					<h2 id="goldDropNumber">GoldDrop: 1</h2>
+					<input type="range" min="1" max="50" value="5" class="slider" id="goldDropSlider">
+					<input type="number" id="goldDropInput" class="inputNumber" min="0" placeholder="1">
+				</div>
+				<div class="adjust">
+					<h2 id="xpDropNumber">XpDrop: 1</h2>
+					<input type="range" min="1" max="50" value="5" class="slider" id="xpDropSlider">
+					<input type="number" id="xpDropInput" class="inputNumber" min="0" placeholder="1">
+				</div>
+				<div class="adjust">
+					<h2 id="enemyLevelNumber">EnemyLevel: 0</h2>
+						<input type="range" min="1" max="10" value="1" class="slider" id="enemyLevelSlider">
+						<input type="number" id="enemyLevelInput" class="inputNumber" min="0" placeholder="0">
+				</div>
+				<div class="adjust">
+					<h2 id="goldNumber">Gold: 2000</h2>
+					<input type="range" min="1" max="20" value="4" class="slider" id="goldSlider">
+					<input type="number" id="goldInput" class="inputNumber" min="0" placeholder="2000">
+				</div>
+				<div class="adjust">
+					<h2 id="stageNumber">Stage: 1</h2>
+					<input type="range" min="1" max="3" value="1" class="slider" id="stageSlider">
+					<input type="number" id="stageInput" class="inputNumber" min="1" placeholder="1">
+				</div>
+				<div class="adjust">
+					<h2 id="levelNumber">Level: 1</h2>
+					<input type="range" min="1" max="10" value="1" class="slider" id="levelSlider">
+					<input type="number" id="levelInput" class="inputNumber" min="1" placeholder="1">
+				</div>
+				<div class="adjust">
+					<h2 id="hpNumber">Hp: 10</h2>
+					<input type="range" min="1" max="20" value="10" class="slider" id="hpSlider">
+					<input type="number" id="hpInput" class="inputNumber" min="1" placeholder="10">
+				</div>
+			
+			
+			</div>
+
+			<button id="closeButton">Close config</button>
+		</div>
+		<button id="startButton">Start Game</button>
+		
+		<script src="js\start.js"></script>
+		<script src="js\map.js"></script>
+		<script src="js\towerClass.js"></script>
+		<script src="js\enemyClass.js"></script>
+		<script src="js\overlay.js"></script>
+		<script src="js\shop.js"></script>
+		<script src="js\waves.js"></script>
+		<script src="js\levels.js"></script>
+		<script src="js\time.js"></script>
+		<script src="js\script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,51 @@
+1.6.0 - the gamesetup update
+
+fikset health og level slider i gamesetup
+
+fikset spawnrate til å matche gamespeed
+
+fikset bug i shop når man har max interest
+
+fikset goldMultbuyknapp
+
+fikset bankUpgrade
+
+----------------------------------
+
+fjernet hp fra script.js
+
+fjerner / gameTime i globale start.js verdier
+
+endret levelUpRan til levelUpRng og det fikset bugs
+
+puttet Number på gold i start.js
+
+la inn goldMult = 1 i start.js
+
+la til delete på 2 elementer på enemyClass
+(la dem til igjen, de kunne ikke fjernes lol)
+
+rydder opp litt markert kode i waves
+
+------------------------------------
+
+nerfer towerlvl xp scaling fra 5 til 10
+
+setter opp pris på towerUpgrade og ned scaling fra 8 til 6
+
+setter opp prestige hp fra 3 til 4
+
+
+1.6.1 -nerf/buff
+
+nerfer towerlvl xp scaling fra 10 til 15
+
+legger til healthincreaseincreaser
+
+legger til spawnrateincreaseincreaser
+
+buffer pris på første upgrade til 5000
+
+
+scaler prestige hp fra 4 til 2.5
+

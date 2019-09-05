@@ -1,0 +1,4 @@
+1.8.1 - bugfix av interest + harder scaling
+
+musikk
+1-2 hp tweaks litt lettere

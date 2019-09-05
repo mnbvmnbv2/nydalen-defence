@@ -1,0 +1,7 @@
+patch notes 1.8.4
+
+enemy gold = lvl * 5 opp fra 3 eller 4
+
+tower lvl gir + 0.2 dmg flat fra scalet 1^pr 10 lvl
+
+tower mult price *6 ned fra *10

@@ -1,0 +1,17 @@
+Player lvl = towerMultDmg
+Spikes
+Cannon + laser
+Armor + penetration
+Flame arrow etc.
+Enemy Prestige Circle
+Diff scoreMult
+Flere kart
+Prestige/infamy/NG+
+2 player
+bilder
+projektiler
+flyvende fiender
+rocks/rubble man må grave bort
+Kjøpe nye veier
+Flytte base
+Tileset/skins

@@ -1,0 +1,17 @@
+1.8.0 - image update
+
+la til trær og steiner
+
+Kan fjernes for removeCost (ikke enda)
+
+la til bedre brukergrenesnitt med info når man hover over tiles
+(hole, path etc.)
+
+laget lavamaptileset
+
+laget bedre scaling på alt
+
+fjernet noen avanserte incinc funcsjoner
+
+LAGET TIME FUNC for alt
+

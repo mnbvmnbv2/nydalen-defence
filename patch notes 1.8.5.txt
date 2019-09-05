@@ -1,0 +1,5 @@
+patch notes 1.8.4
+
+fikset noe på hp scaling.
+
+Den går etter hp og ikke lvl på den ene...

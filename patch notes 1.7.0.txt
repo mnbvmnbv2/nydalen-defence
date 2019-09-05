@@ -1,0 +1,7 @@
+1.7.0 - the score update (kødda)... colorupdate
+
+la til tileset med animasjon
+
+setter towerUpgrade fra 4x til 5x
+
+prestigehp fra 2.5 til 3
